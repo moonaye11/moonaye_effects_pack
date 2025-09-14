@@ -3016,61 +3016,11 @@
                 },
                 {
                   "enabled": true,
-                  "name": "demon Slaying +9",
+                  "name": "demon Slaying",
                   "trigger": {
                     "source": {
                       "Buff": [
-                        9900
-                      ]
-                    },
-                    "threshold": {
-                      "threshold_type": "Present",
-                      "amount_type": "Intensity"
-                    }
-                  },
-                  "filter": {
-                    "player": {
-                      "combat": null,
-                      "specs": [],
-                      "weapons": [],
-                      "traits": [],
-                      "mounts": []
-                    },
-                    "map": {
-                      "category": [],
-                      "whitelist": true,
-                      "ids": []
-                    }
-                  },
-                  "icon": {
-                    "File": "moonaye_effects_pack\\food_util\\util_power_demons.png"
-                  },
-                  "tint": [
-                    1.0,
-                    1.0,
-                    1.0,
-                    1.0
-                  ],
-                  "zoom": 1.0,
-                  "round": 0.0,
-                  "border_size": 0.0,
-                  "border_color": [
-                    0.0,
-                    0.0,
-                    0.0,
-                    1.0
-                  ],
-                  "conditions": [],
-                  "duration_bar": false,
-                  "duration_text": false,
-                  "stacks_text": false
-                },
-                {
-                  "enabled": true,
-                  "name": "demon Slaying +10",
-                  "trigger": {
-                    "source": {
-                      "Buff": [
+                        9900,
                         9901
                       ]
                     },
@@ -3122,6 +3072,7 @@
                   "trigger": {
                     "source": {
                       "Buff": [
+                        9908,
                         9909
                       ]
                     },
